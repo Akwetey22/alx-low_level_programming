@@ -1,51 +1,47 @@
 #include "3-calc.h"
-
 /**
- * op_add - function that adds two numbers.
- * @a: first number.
- * @b: second number.
- *
- * Return: the result of the addition.
- */
+  *op_add - return the sum of 2 numbers.
+  *@a: integer.
+  *@b: integer.
+  *
+  *Return: sum.
+  */
 int op_add(int a, int b)
 {
 	return (a + b);
 }
 
 /**
- * op_sub - function that subctracts two numbers.
- * @a: first number.
- * @b: second number.
- *
- * Return: the result of the difference.
- */
+  *op_sub - returns difference of 2 numbers
+  *@a:  integer.
+  *@b: integer.
+  *
+  *Return: difference.
+  */
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
 
 /**
- * op_mul - function that multiplies two numbers.
- * @a: first number.
- * @b: second number.
- *
- * Return: the result of the multiplication.
- */
+  *op_mul - returns product of two numbers.
+  *@a: integer.
+  *@b: integer.
+  *
+  *Return: product.
+  */
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
 
 /**
- * op_div - function that divides two numbers.
- * @a: first number.
- * @b: second number.
- *
- * If the user tries to divide (/ or %) by 0, print Error, followed,
- * by a new line, and exit with the status 100.
- *
- * Return: the result of the division.
- */
+  *op_div - returns the quotient of 2 numbers.
+  *@a: integer.
+  *@b: integer.
+  *
+  *Return: quotient.
+  */
 int op_div(int a, int b)
 {
 	if (b == 0)
@@ -57,15 +53,12 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - function that calculates the modulo of two numbers.
- * @a: first number.
- * @b: second number.
- *
- * If the user tries to divide (/ or %) by 0, print Error, followed,
- * by a new line, and exit with the status 100.
- *
- * Return: the result of the modulo.
- */
+  *op_mod - returns the remainder of division.
+  *@a: integer.
+  *@b: integer.
+  *
+  *Return: remainder.
+  */
 int op_mod(int a, int b)
 {
 	if (b == 0)
